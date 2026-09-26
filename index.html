@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>ShopEase</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>ShopEase - A Dynamic Shopping Cart</h1>
+  
+  <div id="product-container">
+    <input type="text" id="product-name" placeholder="Product Name">
+    <input type="number" id="product-price" placeholder="Product Price">
+    <input type="number" id="product-quantity" placeholder="Product Quantity">
+
+    <button id="add-product">Add Product</button>
+  </div>
+ 
+  <div id ="display-container">
+   
+    <h2>Your Cart</h2>
+    <p id ="bill-date"></p>
+    <ol id = "product-list"></ol>
+    <h3>Total Amount to Pay: $<span id="total-price">0.00</span></h3>
+    <p id = "thank-you"></p>
+
+  </div>
+  <div>
+    <button id="update-product">Update Cart</button>
+  </div>
+ 
+ 
+</body>
+</html>

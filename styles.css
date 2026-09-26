@@ -1,0 +1,25 @@
+body {
+  margin: 20px;
+  line-height: 1.6;
+  background-color: aquamarine;
+}
+
+#product-container {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  
+}
+
+#display-container {
+  width: 500px;
+  margin-top: 30px;
+  padding: 25px;
+
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px gray;
+
+  background-color: aqua;
+  
+}
